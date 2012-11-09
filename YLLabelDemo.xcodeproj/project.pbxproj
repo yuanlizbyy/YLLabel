@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0485EC6B164B8C9B00626805 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0485EC6A164B8C9B00626805 /* UIKit.framework */; };
+		0485EC6D164B8C9B00626805 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0485EC6C164B8C9B00626805 /* Foundation.framework */; };
+		0485EC6F164B8C9B00626805 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0485EC6E164B8C9B00626805 /* CoreGraphics.framework */; };
+		0485EC75164B8C9B00626805 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0485EC73164B8C9B00626805 /* InfoPlist.strings */; };
+		0485EC77164B8C9B00626805 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485EC76164B8C9B00626805 /* main.m */; };
+		0485EC7B164B8C9B00626805 /* YLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485EC7A164B8C9B00626805 /* YLAppDelegate.m */; };
+		0485EC7D164B8C9B00626805 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0485EC7C164B8C9B00626805 /* Default.png */; };
+		0485EC7F164B8C9B00626805 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0485EC7E164B8C9B00626805 /* Default@2x.png */; };
+		0485EC81164B8C9B00626805 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0485EC80164B8C9B00626805 /* Default-568h@2x.png */; };
+		0485EC84164B8C9B00626805 /* YLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485EC83164B8C9B00626805 /* YLViewController.m */; };
+		0485EC87164B8C9B00626805 /* YLViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0485EC85164B8C9B00626805 /* YLViewController_iPhone.xib */; };
+		0485EC8A164B8C9B00626805 /* YLViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0485EC88164B8C9B00626805 /* YLViewController_iPad.xib */; };
+		0485EC93164B8CD100626805 /* YLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485EC92164B8CD100626805 /* YLLabel.m */; };
+		0485EC95164B957600626805 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0485EC94164B957600626805 /* CoreText.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0485EC66164B8C9B00626805 /* YLLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0485EC6A164B8C9B00626805 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0485EC6C164B8C9B00626805 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0485EC6E164B8C9B00626805 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0485EC72164B8C9B00626805 /* YLLabelDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YLLabelDemo-Info.plist"; sourceTree = "<group>"; };
+		0485EC74164B8C9B00626805 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0485EC76164B8C9B00626805 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0485EC78164B8C9B00626805 /* YLLabelDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YLLabelDemo-Prefix.pch"; sourceTree = "<group>"; };
+		0485EC79164B8C9B00626805 /* YLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLAppDelegate.h; sourceTree = "<group>"; };
+		0485EC7A164B8C9B00626805 /* YLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLAppDelegate.m; sourceTree = "<group>"; };
+		0485EC7C164B8C9B00626805 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0485EC7E164B8C9B00626805 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0485EC80164B8C9B00626805 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0485EC82164B8C9B00626805 /* YLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLViewController.h; sourceTree = "<group>"; };
+		0485EC83164B8C9B00626805 /* YLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLViewController.m; sourceTree = "<group>"; };
+		0485EC86164B8C9B00626805 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YLViewController_iPhone.xib; sourceTree = "<group>"; };
+		0485EC89164B8C9B00626805 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YLViewController_iPad.xib; sourceTree = "<group>"; };
+		0485EC91164B8CD100626805 /* YLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLLabel.h; path = YLLabel/YLLabel.h; sourceTree = "<group>"; };
+		0485EC92164B8CD100626805 /* YLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLLabel.m; path = YLLabel/YLLabel.m; sourceTree = "<group>"; };
+		0485EC94164B957600626805 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0485EC63164B8C9B00626805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0485EC95164B957600626805 /* CoreText.framework in Frameworks */,
+				0485EC6B164B8C9B00626805 /* UIKit.framework in Frameworks */,
+				0485EC6D164B8C9B00626805 /* Foundation.framework in Frameworks */,
+				0485EC6F164B8C9B00626805 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0485EC5B164B8C9B00626805 = {
+			isa = PBXGroup;
+			children = (
+				0485EC94164B957600626805 /* CoreText.framework */,
+				0485EC70164B8C9B00626805 /* YLLabelDemo */,
+				0485EC69164B8C9B00626805 /* Frameworks */,
+				0485EC67164B8C9B00626805 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0485EC67164B8C9B00626805 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0485EC66164B8C9B00626805 /* YLLabelDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0485EC69164B8C9B00626805 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0485EC6A164B8C9B00626805 /* UIKit.framework */,
+				0485EC6C164B8C9B00626805 /* Foundation.framework */,
+				0485EC6E164B8C9B00626805 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0485EC70164B8C9B00626805 /* YLLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0485EC90164B8CA600626805 /* YLLabel */,
+				0485EC79164B8C9B00626805 /* YLAppDelegate.h */,
+				0485EC7A164B8C9B00626805 /* YLAppDelegate.m */,
+				0485EC82164B8C9B00626805 /* YLViewController.h */,
+				0485EC83164B8C9B00626805 /* YLViewController.m */,
+				0485EC85164B8C9B00626805 /* YLViewController_iPhone.xib */,
+				0485EC88164B8C9B00626805 /* YLViewController_iPad.xib */,
+				0485EC71164B8C9B00626805 /* Supporting Files */,
+			);
+			path = YLLabelDemo;
+			sourceTree = "<group>";
+		};
+		0485EC71164B8C9B00626805 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0485EC72164B8C9B00626805 /* YLLabelDemo-Info.plist */,
+				0485EC73164B8C9B00626805 /* InfoPlist.strings */,
+				0485EC76164B8C9B00626805 /* main.m */,
+				0485EC78164B8C9B00626805 /* YLLabelDemo-Prefix.pch */,
+				0485EC7C164B8C9B00626805 /* Default.png */,
+				0485EC7E164B8C9B00626805 /* Default@2x.png */,
+				0485EC80164B8C9B00626805 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0485EC90164B8CA600626805 /* YLLabel */ = {
+			isa = PBXGroup;
+			children = (
+				0485EC91164B8CD100626805 /* YLLabel.h */,
+				0485EC92164B8CD100626805 /* YLLabel.m */,
+			);
+			name = YLLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0485EC65164B8C9B00626805 /* YLLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0485EC8D164B8C9B00626805 /* Build configuration list for PBXNativeTarget "YLLabelDemo" */;
+			buildPhases = (
+				0485EC62164B8C9B00626805 /* Sources */,
+				0485EC63164B8C9B00626805 /* Frameworks */,
+				0485EC64164B8C9B00626805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLLabelDemo;
+			productName = YLLabelDemo;
+			productReference = 0485EC66164B8C9B00626805 /* YLLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0485EC5D164B8C9B00626805 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YL;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = YuanLi;
+			};
+			buildConfigurationList = 0485EC60164B8C9B00626805 /* Build configuration list for PBXProject "YLLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0485EC5B164B8C9B00626805;
+			productRefGroup = 0485EC67164B8C9B00626805 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0485EC65164B8C9B00626805 /* YLLabelDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0485EC64164B8C9B00626805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0485EC75164B8C9B00626805 /* InfoPlist.strings in Resources */,
+				0485EC7D164B8C9B00626805 /* Default.png in Resources */,
+				0485EC7F164B8C9B00626805 /* Default@2x.png in Resources */,
+				0485EC81164B8C9B00626805 /* Default-568h@2x.png in Resources */,
+				0485EC87164B8C9B00626805 /* YLViewController_iPhone.xib in Resources */,
+				0485EC8A164B8C9B00626805 /* YLViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0485EC62164B8C9B00626805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0485EC77164B8C9B00626805 /* main.m in Sources */,
+				0485EC7B164B8C9B00626805 /* YLAppDelegate.m in Sources */,
+				0485EC84164B8C9B00626805 /* YLViewController.m in Sources */,
+				0485EC93164B8CD100626805 /* YLLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0485EC73164B8C9B00626805 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0485EC74164B8C9B00626805 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0485EC85164B8C9B00626805 /* YLViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0485EC86164B8C9B00626805 /* en */,
+			);
+			name = YLViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		0485EC88164B8C9B00626805 /* YLViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0485EC89164B8C9B00626805 /* en */,
+			);
+			name = YLViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0485EC8B164B8C9B00626805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0485EC8C164B8C9B00626805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0485EC8E164B8C9B00626805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YLLabelDemo/YLLabelDemo-Prefix.pch";
+				INFOPLIST_FILE = "YLLabelDemo/YLLabelDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0485EC8F164B8C9B00626805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YLLabelDemo/YLLabelDemo-Prefix.pch";
+				INFOPLIST_FILE = "YLLabelDemo/YLLabelDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0485EC60164B8C9B00626805 /* Build configuration list for PBXProject "YLLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0485EC8B164B8C9B00626805 /* Debug */,
+				0485EC8C164B8C9B00626805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0485EC8D164B8C9B00626805 /* Build configuration list for PBXNativeTarget "YLLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0485EC8E164B8C9B00626805 /* Debug */,
+				0485EC8F164B8C9B00626805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0485EC5D164B8C9B00626805 /* Project object */;
+}
