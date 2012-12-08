@@ -1,6 +1,6 @@
 YLLabel
 =======
-**A simple justified label for iOS**
+**A simple justifier label for iOS**
 
 ## Screenshot
 [![](https://github.com/yuanlizbyy/YLLabel/blob/master/Screenshot/YLLabel.png?raw=true)](https://github.com/yuanlizbyy/YLLabel/blob/master/Screenshot/YLLabel.png?raw=true)
