@@ -9,6 +9,7 @@
 #import "YLViewController.h"
 #import "YLLabel.h"
 
+NSString* const msg = @"壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。清风《赤壁赋》文徵明书徐来，水波不兴。举酒属（zhǔ）客，诵明月之诗，歌窈窕之章。少(shǎo) 焉，月出于东山之上，徘徊于斗(dǒu)牛之间。白露横江，水光接天。纵一苇之所如，凌万顷之茫然。浩浩乎如冯 (píng) 虚御风，而不知其所止；飘飘乎如遗世独立，羽化而登仙。";
 
 @interface YLViewController ()
 
@@ -21,10 +22,10 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    YLLabel* label = [[YLLabel alloc] initWithFrame:CGRectMake(40, 40, 150, 200)];
-    [label setText:@"父对象 (parent(s)): 提交(commit)的SHA1签！！！名代表着当前提交前一步的项目历史. 上面的那个例子就只有一个父对象; 合并的提交(merge commits)可能会有不只一个父对象. 如果一个提交没有父对象, 那么我们就叫它“根提交\"(root commit), 它就代表着项目最初的一个版本(revision). 每个项目必须有至少有一个“根提交\"(root commit). 一个项目可能有多个\"根提交“，虽然这并不常见(这不是好的作法)"];
-    label.textColor = [UIColor blueColor];
-    [self.view addSubview:label];
+    // YLLabel
+    [justifyLabel setText:msg];
+    justifyLabel.textColor = [UIColor darkGrayColor];
+    justifyLabel.font = [UIFont systemFontOfSize:16.0f];
 }
 
 - (void)didReceiveMemoryWarning

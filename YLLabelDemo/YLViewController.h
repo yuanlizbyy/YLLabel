@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YLViewController : UIViewController
+@class YLLabel;
+
+@interface YLViewController : UIViewController {
+    IBOutlet YLLabel* justifyLabel;
+}
 
 @end

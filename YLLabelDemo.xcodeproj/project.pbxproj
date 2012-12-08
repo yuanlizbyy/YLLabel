@@ -18,7 +18,6 @@
 		0485EC81164B8C9B00626805 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0485EC80164B8C9B00626805 /* Default-568h@2x.png */; };
 		0485EC84164B8C9B00626805 /* YLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485EC83164B8C9B00626805 /* YLViewController.m */; };
 		0485EC87164B8C9B00626805 /* YLViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0485EC85164B8C9B00626805 /* YLViewController_iPhone.xib */; };
-		0485EC8A164B8C9B00626805 /* YLViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0485EC88164B8C9B00626805 /* YLViewController_iPad.xib */; };
 		0485EC93164B8CD100626805 /* YLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485EC92164B8CD100626805 /* YLLabel.m */; };
 		0485EC95164B957600626805 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0485EC94164B957600626805 /* CoreText.framework */; };
 /* End PBXBuildFile section */
@@ -40,7 +39,6 @@
 		0485EC82164B8C9B00626805 /* YLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLViewController.h; sourceTree = "<group>"; };
 		0485EC83164B8C9B00626805 /* YLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLViewController.m; sourceTree = "<group>"; };
 		0485EC86164B8C9B00626805 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YLViewController_iPhone.xib; sourceTree = "<group>"; };
-		0485EC89164B8C9B00626805 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YLViewController_iPad.xib; sourceTree = "<group>"; };
 		0485EC91164B8CD100626805 /* YLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLLabel.h; path = YLLabel/YLLabel.h; sourceTree = "<group>"; };
 		0485EC92164B8CD100626805 /* YLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLLabel.m; path = YLLabel/YLLabel.m; sourceTree = "<group>"; };
 		0485EC94164B957600626805 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
@@ -64,7 +62,6 @@
 		0485EC5B164B8C9B00626805 = {
 			isa = PBXGroup;
 			children = (
-				0485EC94164B957600626805 /* CoreText.framework */,
 				0485EC70164B8C9B00626805 /* YLLabelDemo */,
 				0485EC69164B8C9B00626805 /* Frameworks */,
 				0485EC67164B8C9B00626805 /* Products */,
@@ -82,6 +79,7 @@
 		0485EC69164B8C9B00626805 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0485EC94164B957600626805 /* CoreText.framework */,
 				0485EC6A164B8C9B00626805 /* UIKit.framework */,
 				0485EC6C164B8C9B00626805 /* Foundation.framework */,
 				0485EC6E164B8C9B00626805 /* CoreGraphics.framework */,
@@ -98,7 +96,6 @@
 				0485EC82164B8C9B00626805 /* YLViewController.h */,
 				0485EC83164B8C9B00626805 /* YLViewController.m */,
 				0485EC85164B8C9B00626805 /* YLViewController_iPhone.xib */,
-				0485EC88164B8C9B00626805 /* YLViewController_iPad.xib */,
 				0485EC71164B8C9B00626805 /* Supporting Files */,
 			);
 			path = YLLabelDemo;
@@ -184,7 +181,6 @@
 				0485EC7F164B8C9B00626805 /* Default@2x.png in Resources */,
 				0485EC81164B8C9B00626805 /* Default-568h@2x.png in Resources */,
 				0485EC87164B8C9B00626805 /* YLViewController_iPhone.xib in Resources */,
-				0485EC8A164B8C9B00626805 /* YLViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +217,6 @@
 			name = YLViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
-		0485EC88164B8C9B00626805 /* YLViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0485EC89164B8C9B00626805 /* en */,
-			);
-			name = YLViewController_iPad.xib;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -241,7 +229,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yuen Lee (9258Z5FE33)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -256,6 +244,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F016324B-D0E4-4E97-BA46-FDFA8D63253E";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -270,6 +259,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yuen Lee (9258Z5FE33)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -278,6 +268,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "927E120F-5149-4C19-BD57-0B3C40E6E8F3";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -325,6 +316,7 @@
 				0485EC8F164B8C9B00626805 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
